@@ -64,7 +64,10 @@ const checkCards = () => {
 }
 
 const revealCard = ({ target }) => {
-  if (target.parentNode.className.includes('revealCard')) {
+  if (
+    target.parentNode.className.includes('revealCard') ||
+    target.parentNode.className.includes('grids')
+  ) {
     return
   }
 
