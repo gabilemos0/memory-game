@@ -55,7 +55,9 @@ header {
   position: relative;
 
   transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .face {
@@ -71,21 +73,25 @@ header {
   background-position: center;
 
   transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
 
   cursor: pointer;
 }
 
 .front {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .back {
   background-image: url('../assets/img/back.jpg');
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .revealCard {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .disabledCard {
