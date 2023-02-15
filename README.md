@@ -1,5 +1,5 @@
 <h1 align="center">
-Memory Game 
+Memory Game 🧩
 </h1>
 
 <p align="center">Created a memowy game for learning purposes using HTML, CSS and JS. </p>
